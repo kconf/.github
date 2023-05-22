@@ -5,13 +5,17 @@ Manage application configurations using [vcsh](https://github.com/RichiH/vcsh) a
 ### [Install](https://github.com/RichiH/vcsh/blob/main/doc/INSTALL.md)
 
 ~~~ bash
+# Install
 brew install vcsh mr         # macOS
 sudo pacman -S vcsh myrepos  # ArchLinux 
-~~~
 
-### Add a new config
+# On a new host
+vcsh clone https://github.com/kconf/mr mr
+cd ~/.config/mr/config.d
+ln -s ../available.d/git.vcsh
+cd; mr update
 
-~~~ bash
+# Add a new config
 vcsh init vim
 vcsh vim add ~/.vimrc ~/.vim
 vcsh vim commit -m 'Initial commit of my Vim configuration'
