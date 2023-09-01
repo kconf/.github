@@ -21,7 +21,7 @@ vcsh vim add ~/.vimrc ~/.vim
 vcsh vim commit -m 'Initial commit of my Vim configuration'
 # optionally push your files to a remote
 vcsh vim remote add origin <remote>
-vcsh vim push -u origin master
+vcsh vim push -u origin main
 # from now on you can push additional commits like this
 vcsh vim push
 ~~~
