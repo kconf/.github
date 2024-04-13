@@ -1,3 +1,3 @@
-# Application Configurations
+# GitHub Profile Repo
 
-Manage application configurations using [vcsh](https://github.com/RichiH/vcsh) and [myrepos](https://myrepos.branchable.com/).
+GitHub shows [profile/README.md](profile/README.md) as profile.
