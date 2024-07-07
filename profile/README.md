@@ -1,6 +1,6 @@
 ## Configurations 👋
 
-I use [Nix](https://nixos.org/) and [vcsh](https://github.com/kconf/.github/blob/main/profile/README.vcsh.md).
+I use [Nix](https://nixos.org/) and [k](https://github.com/kconf/tools/blob/main/.local/bin/k)(which is inspired by [vcsh](https://github.com/RichiH/vcsh)).
 
 ### Requirements
 
